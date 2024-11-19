@@ -10,6 +10,7 @@
     <div class="container">
         <h1>Formulaire Simple</h1>
         <form method="post" action="../back/traitement.php">
+	<div><label for="prenom">Prénom :</label><input type="text" id="prenom" name="prenom" required></div>
             <div>
                 <label for="nom">Nom :</label>
                 <input type="text" id="nom" name="nom" required>
