@@ -26,6 +26,7 @@
                 <label for="email">Email :</label>
                 <input type="email" id="email" name="email" required>
             </div>
+			<div><label for="age">Age :</label><input type="number" id="age" name="age" required></div>
             <button type="submit">Envoyer</button>
         </form>
         <div id="reponse"></div> 
